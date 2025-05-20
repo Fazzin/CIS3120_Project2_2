@@ -14,5 +14,5 @@ def tallest_height(df, n = 5, col="Height"):
         row_of_cutoff = len(df_sorted) - 1
     cut_off_height = df_sorted.loc[row_of_cutoff, col] #Looks up the single cell of the nth (5 in this case) tallest person
     mask = df_sorted[col] >= cut_off_height #Boolean is true if athlete's height is greater than the cutoff
-    df_tallest = df_sorted[mask][["Name", col]] # Apply the mask to get only the rows where height meets or exceeds the cutoff
+    df_tallest = df_sorted[mask][["Name", col]] #Apply the mask to get only the rows where height meets or exceeds the cutoff
     return df_tallest
