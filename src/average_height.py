@@ -4,7 +4,7 @@ Finds the average height in each of the 4 dataframes. 4 averages in total.
 
 import pandas as pd
 
-def average_height(avg_height1, avg_height2, avg_height3, avg_height4): #create a dictionary to hold data
+def average_height(avg_height1, avg_height2, avg_height3, avg_height4): 
     data = {
         'Team Category' : ["Men's Volleyball Team", "Men's Swimming & Diving Team", "Women's Volleyball Team", "Women's Swimming & Diving Team"],
         'Average Height' : [avg_height1, avg_height2, avg_height3, avg_height4], # List of average heights provided as function arguments
