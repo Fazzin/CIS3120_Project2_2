@@ -1,6 +1,5 @@
 '''
 Function for finding the names and heights of the athletes with the 5 tallest heights for both men and women in each sport.
-
 Notes:
 df must be a pandas.DataFrame
 n is an int with a default value of 5
