@@ -80,21 +80,21 @@ def main():
 
     #While loop for CSV
     while(True):
-        export_answer = input("Would you like to export the rosters to CSV files? [Y/N] ").strip().lower() #Ensures all answers will be in lower case
-        if export_answer in {"y", "yes"}:
+        csv_export_answer = input("Would you like to export the rosters to CSV files? [Y/N] ").strip().lower() #Ensures all answers will be in lower case
+        if csv_export_answer in {"y", "yes"}:
             to_csv(rosters)
             break
-        elif export_answer in {"n", "no"}:
+        elif csv_export_answer in {"n", "no"}:
             print("Data will not be exported.")
             break
         print("Please enter y / yes or n / no")
     #While loop for SQL
     while(True):
-        export_answer = input("Would you like to export the rosters to a SQL Database? [Y/N] ").strip().lower() #Ensures all answers will be in lower case
-        if export_answer in {"y", "yes"}:
+        sql_export_answer = input("Would you like to export the rosters to a SQL Database? [Y/N] ").strip().lower() #Ensures all answers will be in lower case
+        if sql_export_answer in {"y", "yes"}:
             to_sql(rosters)            
             break
-        elif export_answer in {"n", "no"}:
+        elif sql_export_answer in {"n", "no"}:
             print("Data will not be exported.")
             break
         print("Please enter y / yes or n / no")
