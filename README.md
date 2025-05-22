@@ -14,10 +14,10 @@ CIS 3120 Programming to Analytics Project 2 Question 2
         · Men's Swimming & Diving  
         · Women's Volleyball  
         · Women's Swimming & Diving  
-| 2 | Converts the data into **Dataframes** using pandas ('Name', 'Height')  
-| 3 | Exports and stores the data into **CSVs** and a single **SQLite Database** (OPTIONAL)  
-| 4 | **Computes** the average height, tallest height, and shortest height into dataframes  
-| 5 | Visualises the average heights into a **Bar Graph** as a png figure (OPTIONAL)  
+| 2 | **Converts** the data into **Dataframes** using pandas ('Name', 'Height')  
+| 3 | **Exports** and stores the data into **CSVs** and a single **SQLite Database** (OPTIONAL)  
+| 4 | **Computes** the average height, tallest height, and shortest height into **Dataframes**  
+| 5 | **Visualises** the average heights into a **Bar Graph** as a png figure (OPTIONAL)  
 
 ## How do I run this repository?
 | 1 | Clone the repo  
